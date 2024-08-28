@@ -20,8 +20,8 @@ import (
 	"golang.org/x/oauth2/google"
 
 	"cloud.google.com/go/storage"
+	"github.com/ernail/afero"
 	"github.com/googleapis/google-cloud-go-testing/storage/stiface"
-	"github.com/spf13/afero"
 )
 
 const (
